@@ -65,7 +65,7 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <div className="hidden lg:flex flex-none items-center">
-        <ul className="menu menu-horizontal px-1 gap-5 items-center text-sm ">
+        <ul className="flex  px-1 gap-5 items-center text-sm ">
           <li>
             <Link 
               to="/" 
