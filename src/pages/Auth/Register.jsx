@@ -104,19 +104,7 @@ const Register = () => {
 
       {/* Register Card */}
       <div className="relative z-10 w-full max-w-md bg-base-100 shadow-2xl rounded-2xl p-8">
-        {/* Logo */}
-        <div className="flex justify-center mb-6">
-          <div className="inline-flex items-center gap-3">
-            <div className="w-14 h-14 bg-linear-to-br from-indigo-600 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
-              <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
-              </svg>
-            </div>
-            <span className="text-3xl font-bold bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              BookCourier
-            </span>
-          </div>
-        </div>
+       
 
         {/* Welcome Text */}
         <div className="mb-6 text-center">
@@ -152,8 +140,8 @@ const Register = () => {
               <input
                 type="text"
                 name="displayName"
-                placeholder="John Doe"
-                className="input input-bordered w-full h-14 pl-16 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
+                placeholder="Your Name"
+                className="input input-bordered w-full h-14 pl-2 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
                 required
               />
             </div>
@@ -176,7 +164,7 @@ const Register = () => {
                 type="email"
                 name="email"
                 placeholder="you@example.com"
-                className="input input-bordered w-full h-14 pl-16 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
+                className="input input-bordered w-full h-14 pl-2 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
                 required
               />
             </div>
@@ -199,7 +187,7 @@ const Register = () => {
                 type="url"
                 name="photoURL"
                 placeholder="https://example.com/photo.jpg"
-                className="input input-bordered w-full h-14 pl-16 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
+                className="input input-bordered w-full h-14 pl-2 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
               />
             </div>
           </div>
@@ -221,7 +209,7 @@ const Register = () => {
                 type={showPassword ? 'text' : 'password'}
                 name="password"
                 placeholder="Create a strong password"
-                className="input input-bordered w-full h-14 pl-16 pr-14 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
+                className="input input-bordered w-full h-14 pl-2 pr-14 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
                 value={password}
                 onChange={handlePasswordChange}
                 required

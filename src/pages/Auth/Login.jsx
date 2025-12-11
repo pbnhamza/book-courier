@@ -91,7 +91,7 @@ const Login = () => {
                 <input
                   type="email"
                   placeholder="you@example.com"
-                  className="input input-bordered w-full h-14 pl-16 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
+                  className="input input-bordered w-full h-14 pl-2 pr-4 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -115,7 +115,7 @@ const Login = () => {
                 <input
                   type={showPassword ? 'text' : 'password'}
                   placeholder="Enter your password"
-                  className="input input-bordered w-full h-14 pl-16 pr-14 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
+                  className="input input-bordered w-full h-14 pl-2 pr-14 text-base bg-base-100 border-2 border-base-300 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-4 focus:ring-purple-500/10 transition-all duration-200 placeholder:text-base-content/40"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
