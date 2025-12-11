@@ -67,7 +67,7 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Welcome Text */}
+       
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold mb-2">Welcome Back</h1>
           <p className="text-base-content/60">Please enter your credentials to continue</p>
@@ -175,10 +175,10 @@ const Login = () => {
               )}
             </button>
 
-            {/* Divider */}
+  
             <div className="divider text-sm text-base-content/50">Or continue with</div>
 
-            {/* Social Login Button */}
+            {/* Social Login  */}
             <button
               type="button"
               onClick={handleGoogleLogin}
